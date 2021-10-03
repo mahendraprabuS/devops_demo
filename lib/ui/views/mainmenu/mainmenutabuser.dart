@@ -69,7 +69,7 @@ class MainMenuTabUserState extends State<MainMenuTabUser>
             child: Column(
               children: [
                 Text(
-                  Strings.DET_MM_TB_WEL + "User",
+                  Strings.DET_MM_TB_WEL + "Bits User",
                 ),
                 Text(
                     greeting()
