@@ -44,6 +44,21 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - lib/resources/images/bits.png
+    - lib/resources/images/line.png
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: lib/resources/fonts/Montserrat-Regular.ttf
+
+    - family: Raleway
+      fonts:
+        - asset: lib/resources/fonts/Raleway-Regular.ttf
+        - asset: lib/resources/fonts/Raleway-Thin.ttf
+          style: normal
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
