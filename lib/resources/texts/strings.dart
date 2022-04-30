@@ -90,7 +90,7 @@ class Strings {
   static const String UID_HDR_BOJ = 'BOJOR';
 
 // Common Items
-  static const String APP_NAME = 'Devops Demo';
+  static const String APP_NAME = 'Devops Demo Update';
   static const String AVBL = 'Avbl';
   static const String SELL = 'Sell';
   static const String BUY = 'Buy';
