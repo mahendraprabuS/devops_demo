@@ -56,7 +56,7 @@ class OUSRegistrationState extends State<OUSRegistration> {
                           height: 50,
                           child: ElevatedButton(
                             style: elevatedButtonStyle,
-                            onPressed: () {  },
+                            onPressed: () {  }, //null
                             child: Text(Strings.BTN_TITLE_DOB),),
                           ),
                         sizedBoxHeight,
@@ -64,7 +64,35 @@ class OUSRegistrationState extends State<OUSRegistration> {
                           width: MediaQuery.of(context).size.width / 2,
                           height: 50,
                           child: ElevatedButton(
-                            onPressed: () {  },
+                            onPressed: () {  }, //null
+                            child: Text(Strings.BTN_TITLE_DOB),),
+                        ),
+                        Container(
+                          width: MediaQuery.of(context).size.width / 2,
+                          height: 50,
+                          child: TextButton(
+                            onPressed: () {  }, //null
+                            child: Text(Strings.BTN_TITLE_DOB),),
+                        ),
+                        Container(
+                          width: MediaQuery.of(context).size.width / 2,
+                          height: 50,
+                          child: OutlinedButton(
+                            onPressed: () {  }, //null
+                            child: Text(Strings.BTN_TITLE_DOB),),
+                        ),
+                        Container(
+                          width: MediaQuery.of(context).size.width / 2,
+                          height: 50,
+                          child: CupertinoButton(
+                            onPressed: () {  }, //null
+                            child: Text(Strings.BTN_TITLE_DOB),),
+                        ),
+                        Container(
+                          width: MediaQuery.of(context).size.width / 2,
+                          height: 50,
+                          child: CupertinoButton.filled(
+                            onPressed: () {  }, //null
                             child: Text(Strings.BTN_TITLE_DOB),),
                         ),
                       ],

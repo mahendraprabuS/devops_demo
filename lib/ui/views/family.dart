@@ -89,7 +89,7 @@ List getServices() {
   return [
     Services(
       title: Strings.TITLE_MMM_MMM_REGISTRATION,
-      indicatorValue: 0.50,
+      indicatorValue: 0.25,
     ),
     Services(
       title: Strings.TITLE_MMM_VARAN_VADHU_LIST,

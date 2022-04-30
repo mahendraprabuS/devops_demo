@@ -9,6 +9,11 @@ final ButtonStyle elevatedButtonStyle = ButtonStyle(
       borderRadius: BorderRadius.circular(32.0),
     )));
 
+final ButtonStyle buttonStyle = ButtonStyle(
+    shape: MaterialStateProperty.all<RoundedRectangleBorder>(
+        RoundedRectangleBorder(
+        )));
+
 final TextStyle selectedTextStyle = TextStyle(
   color: Colors.white,
   fontSize: 16,
