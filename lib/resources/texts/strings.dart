@@ -142,7 +142,7 @@ class Strings {
   static const String DET_LGN_FORGOT_PWD = 'Forget your password ?';
   static const String DET_LGN_REGISTER_PT1 = 'Do not have account ?';
   static const String DET_LGN_REGISTER_PT2 = 'Register Now';
-  static const String DET_MM_TB_WEL = 'Welcome User';
+  static const String DET_MM_TB_WEL = 'Welcome ';
   static const String DET_MM_TB_GREET_MOR = 'Good Morning';
   static const String DET_MM_TB_GREET_NOON = 'Good Afternoon';
   static const String DET_MM_TB_GREET_EVE = 'Good Evening';
